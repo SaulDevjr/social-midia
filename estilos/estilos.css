@@ -28,6 +28,7 @@ section#telefone {
   background: url("../imagens/frame-iphone.png") no-repeat;
   background-size: cover;
   background-position: center;
+  
   /*imagen medida com gimp*/
   height: 627px;
   width: 311px;
@@ -53,9 +54,10 @@ section#socials img{
 }
 section#socials img:hover{
     border: 2px solid #ccc;
-    transform: translate(-3px -3px);
-    transition: 0.5s;
-    box-shadow: 2px 2px 15px black;
+    transform: translate(-3px, -3px);
+    box-shadow: 3px 3px 15px black;
+    transition: .3s, border 1s;
+   
 
 }
 

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*este recurso e para tirar o scrollbar*/
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+img {
+  width: 100vw;
+  height: auto;
+  
+}
+a {
+  display: block;
+  width: 100%;
+  background-color: darkred;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+  font-weight: bolder;
+}
+a:hover{
+    width: 100%;
+    background-color: rgb(201, 2, 2);
+}
