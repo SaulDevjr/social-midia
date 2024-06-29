@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 390px) {
+    section#socials{
+        display: flex;
+        justify-content: center;
+    }
+  section#telefone {
+    height: 327px;
+    width: 160px;
+  }
+  iframe#tela {
+    position: relative;
+    top: 42px;
+    left: 10px;
+    width: 140px;
+    height: 245px;
+    background-size: cover;
+  }
+  section#socials img{
+    width: 100%;
+    padding: 2px;
+}
+}
